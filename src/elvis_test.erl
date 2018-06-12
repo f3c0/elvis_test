@@ -2,6 +2,9 @@
 
 -export([start/1]).
 
+start(0) ->
+  12 / 2;
+
 start(1) ->
   -1;
 start(2) ->
